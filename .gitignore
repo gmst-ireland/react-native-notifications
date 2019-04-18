@@ -178,3 +178,10 @@ jspm_packages
 
 # Optional REPL history
 .node_repl_history
+android/gradlew.bat
+android/gradlew
+android/gradle/wrapper/gradle-wrapper.properties
+android/gradle/wrapper/gradle-wrapper.jar
+android/.gradle/vcsWorkingDirs/gc.properties
+android/.gradle/4.6/fileHashes/fileHashes.bin
+android/.gradle/4.6/fileChanges/last-build.bin
