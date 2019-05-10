@@ -192,6 +192,8 @@ public class PushNotification implements IPushNotification {
     protected void clearAllNotifications() {
         final NotificationManager notificationManager = (NotificationManager) mContext.getSystemService(Context.NOTIFICATION_SERVICE);
         notificationManager.cancelAll();
+        mContext.sendBroadcast(new Intent(Intent.ACTION_CLOSE_SYSTEM_DIALOGS));
+
     }
 
     protected int createNotificationId(Notification notification) {
